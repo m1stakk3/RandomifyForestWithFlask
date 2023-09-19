@@ -1,0 +1,46 @@
+#head-lol, #common, #metriki {
+    margin-top: 2%;
+    border: 4px black;
+    border-radius: 30px;
+    box-shadow: 5px 3px purple;
+    border: 1px solid black;
+}
+
+#metriki {
+    margin-bottom: 2%;
+}
+
+img {
+    border-radius: 30px;
+}
+
+#upload, #change {
+    box-shadow: 5px 3px purple;
+    border: 1px solid black;
+}
+
+#ploshad {
+    padding-top: 1.5%;
+}
+
+#author, #no-file-message {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h3, ms {
+    margin-left: 1.5%;
+}
+
+#change {
+    width: 100%;
+}
+
+#info-text {
+    border: 2px double black;
+    border-radius: 30px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
