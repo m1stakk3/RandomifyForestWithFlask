@@ -43,3 +43,7 @@ def create_test_dataset() -> None:
         logging.error("Dataset was not created!")
         raise FileNotFoundError("Датасет не был создан!")
     logging.info("Dataset created. Path = %s", save_path)
+
+
+if __name__ == "__main__":
+    create_test_dataset()
