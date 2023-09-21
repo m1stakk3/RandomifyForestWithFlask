@@ -1,4 +1,3 @@
-from logger import logging
 import os
 from dataclasses import dataclass
 
@@ -13,9 +12,4 @@ class Config:
     # папка внутри проекта, в которую будет сохраняться датасет для классификации
     upload_folder: str = os.path.abspath("./server/uploads")
     # создание ключа сессии на основе процессорного рандома
-    secret_key = os.urandom(10)
-
-    if not os.path.exists(upload_folder):
-        logging.info(f"Creating upload folder: '%s'", upload_folder)
-        os.mkdir(upload_folder)
-
+    secret_key: bytes = os.urandom(10)
