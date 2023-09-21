@@ -6,5 +6,5 @@ import webbrowser
 
 if __name__ == "__main__":
     logging.info("Launching web server")
-    app.run(host=Config.ip, port=Config.port, debug=True)
     webbrowser.open(f"http://{Config.ip}:{Config.port}/")
+    app.run(host=Config.ip, port=Config.port, debug=True)
